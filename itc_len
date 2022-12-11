@@ -1,2 +1,5 @@
 def itc_len(string):
-    return len(string)
+    l = 0
+    for i in string:
+        l += i
+    return l
