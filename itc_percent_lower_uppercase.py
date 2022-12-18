@@ -5,8 +5,8 @@ def itc_percent_lower_uppercase(string):
     for i in string:
         ln += 1
     for i in range(ln):
-        if string[i] >= "A" and string[i] <= "Z":
+        if "A" <= string[i] <= "Z":
             up += 1
-        elif string[i] >= "a" and string[i] <= "z":
+        elif "a" <= string[i] <= "z":
             low += 1
     return (up/low)*100
